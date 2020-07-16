@@ -54,3 +54,21 @@ html, body {
     transition: .5s ease;
     background-color: rgba(0,0,0,.5);
 }
+
+.ventajas-desventajas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ventajas-desventajas li {
+    padding-left: 1.3em;
+}
+
+.ventajas-desventajas li:before {
+    content: "\f105";
+    font-family: "Font Awesome\ 5 Free";
+    display: inline-block;
+    font-weight: 900;
+    width: 1.3em;
+    color: #6c757d;
+}
