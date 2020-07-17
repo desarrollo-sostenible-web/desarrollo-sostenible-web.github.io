@@ -72,3 +72,16 @@ html, body {
     width: 1.3em;
     color: #6c757d;
 }
+
+.bg-dark, .dropdown-item.active, .dropdown-item:active, .btn-dark {
+    background-color: #252525!important;
+}
+
+
+.bg-white {
+    background-color: #f9f9f9!important;
+}
+
+.text-white {
+    color: #f9f9f9!important
+}
