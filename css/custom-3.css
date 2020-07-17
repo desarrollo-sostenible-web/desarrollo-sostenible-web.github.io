@@ -85,3 +85,12 @@ html, body {
 .text-white {
     color: #f9f9f9!important
 }
+
+.portada {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+}
