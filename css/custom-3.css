@@ -55,17 +55,26 @@ html, body {
     background-color: rgba(0, 59, 185, 0.5);
 }
 
-.ventajas-desventajas ul {
+.ventajas-desventajas ul , .problematica ul {
     list-style: none;
     padding: 0;
 }
 
-.ventajas-desventajas li {
+.ventajas-desventajas li, .problematica li {
     padding-left: 1.3em;
 }
 
 .ventajas-desventajas li:before {
     content: "\f105";
+    font-family: "Font Awesome\ 5 Free";
+    display: inline-block;
+    font-weight: 900;
+    width: 1.3em;
+    color: #6c757d;
+}
+
+.problematica li:before {
+    content: "\f06a";
     font-family: "Font Awesome\ 5 Free";
     display: inline-block;
     font-weight: 900;
